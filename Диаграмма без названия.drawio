@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T08:03:31.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3W-fni8oJISCObIadCyE" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T08:05:30.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="VFkH1E7_Vh8u9JlptzCT" version="20.2.4" type="github">
   <diagram id="lCMPazCzQ1nqG8BZnxHk" name="Страница 1">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,8 +176,17 @@
         <mxCell id="6h_Y89MXm6FCbS6qv5VC-60" value="Дорога на роботу з поганим настроєм" style="swimlane;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="640" y="500" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6h_Y89MXm6FCbS6qv5VC-61" value="Герой не зайшов до" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="6h_Y89MXm6FCbS6qv5VC-60">
+        <mxCell id="6h_Y89MXm6FCbS6qv5VC-61" value="Герой не зайшов до кондитера і&amp;nbsp; поїхав на роботу в поганому настрої" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="6h_Y89MXm6FCbS6qv5VC-60">
           <mxGeometry x="10" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6h_Y89MXm6FCbS6qv5VC-64" value="Місце роботи 1" style="swimlane;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="640" y="650" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6h_Y89MXm6FCbS6qv5VC-65" value="Герой в поганому&amp;nbsp; настрої пацював весь день, в ньго нічного не виходило і т.д." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="6h_Y89MXm6FCbS6qv5VC-64">
+          <mxGeometry x="10" y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6h_Y89MXm6FCbS6qv5VC-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=8;" edge="1" parent="1" source="6h_Y89MXm6FCbS6qv5VC-61" target="6h_Y89MXm6FCbS6qv5VC-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
