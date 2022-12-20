@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T17:10:36.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="ysRMdrItqAMuLpfWXVLv" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T17:13:52.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="_ie-iAx9E1gr3yFMEFC0" type="github">
   <diagram id="aulrM3y0VKgavFwc7o5z" name="Страница 1">
-    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,6 +113,15 @@
             <mxPoint x="1010" y="580" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="pyblIbiJkJyPPet0355N-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontSize=16;endArrow=none;endFill=0;" edge="1" parent="1" source="pyblIbiJkJyPPet0355N-46" target="pyblIbiJkJyPPet0355N-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="720" />
+              <mxPoint x="120" y="160" />
+              <mxPoint x="360" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pyblIbiJkJyPPet0355N-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="480" width="160" height="320" as="geometry" />
         </mxCell>
@@ -183,7 +192,7 @@
         <mxCell id="pyblIbiJkJyPPet0355N-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="600" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pyblIbiJkJyPPet0355N-62" value="Індикатор" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pyblIbiJkJyPPet0355N-62" value="Гіроскоп" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="610" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pyblIbiJkJyPPet0355N-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=16;endArrow=none;endFill=0;" edge="1" parent="1" source="pyblIbiJkJyPPet0355N-72" target="pyblIbiJkJyPPet0355N-75">
@@ -191,6 +200,9 @@
         </mxCell>
         <mxCell id="pyblIbiJkJyPPet0355N-72" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pyblIbiJkJyPPet0355N-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontSize=16;endArrow=none;endFill=0;" edge="1" parent="1" source="pyblIbiJkJyPPet0355N-73" target="pyblIbiJkJyPPet0355N-90">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pyblIbiJkJyPPet0355N-73" value="Блок вибору режиму" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="530" width="60" height="60" as="geometry" />
@@ -232,6 +244,24 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880" y="400" as="sourcePoint" />
             <mxPoint x="680" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pyblIbiJkJyPPet0355N-90" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pyblIbiJkJyPPet0355N-91" value="Посилювач низької частоти" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pyblIbiJkJyPPet0355N-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;fontSize=16;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="239.57999999999998" y="350" as="sourcePoint" />
+            <mxPoint x="240" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pyblIbiJkJyPPet0355N-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontSize=16;endArrow=none;endFill=0;" edge="1" parent="1" target="pyblIbiJkJyPPet0355N-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="320" as="sourcePoint" />
+            <mxPoint x="340" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
