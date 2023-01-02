@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-01-02T08:33:47.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="dsc_8Jh0ano_b4QYqln-" type="github"><diagram id="q2-qNfSIA3iYR_rP56So">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-02T08:41:18.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="PYKCupv8cR0wHAL4_Yli" type="github">
+  <diagram id="pz9KBn4OZ-0OedAEPxaZ" name="Страница 1">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eMfemW00m3vbz03uFCwf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="eMfemW00m3vbz03uFCwf-1" target="eMfemW00m3vbz03uFCwf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMfemW00m3vbz03uFCwf-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;На найближчій до місця центр управління, де міститься цей робот,&lt;br&gt;приходить повідомлення про те, що потрібно врятувати людей, і&lt;br&gt;приблизне їх місце знаходження.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="20" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eMfemW00m3vbz03uFCwf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="eMfemW00m3vbz03uFCwf-2" target="eMfemW00m3vbz03uFCwf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMfemW00m3vbz03uFCwf-2" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Робот, який виглядає, як невелике баггі, відправляється в квадрат, в&lt;br&gt;якому за попередньою інформацією знаходяться люди, маючи на собі&lt;br&gt;запас їжі, води та медикаментів на кілька днів. Також в комплекті є&lt;br&gt;докладні інструкції, щодо подальших дій людей в цій ситуаціїї для&lt;br&gt;збереження їх життя.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eMfemW00m3vbz03uFCwf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="eMfemW00m3vbz03uFCwf-4" target="eMfemW00m3vbz03uFCwf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMfemW00m3vbz03uFCwf-4" value="Робот опираючись на данні супутника, а саме координати місцевості, в&lt;br/&gt;автономному режимі їздить та сканує місцевість у пошуках людей." style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eMfemW00m3vbz03uFCwf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="eMfemW00m3vbz03uFCwf-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619.9999999999999" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMfemW00m3vbz03uFCwf-6" value="Після того, як оператором було ідентифіковано людей, він може&lt;br/&gt;перейти на ручний режим керування, та під’їхати до них. Після чого,&lt;br/&gt;робот передає точні координати у центр управління." style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eMfemW00m3vbz03uFCwf-10" value="Після отримання координат, до цього місця вирушає оперативнорятувальна группа, щоб забрати людей та робота з місця перебування." style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
