@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T13:09:39.576Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.15" etag="35ITntprKACreODhHtb0" type="github"><diagram name="Страница 1" id="lynCQwub9FKNbzV4LjFN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-02T14:50:55.115Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="sn-euqAYxN-zTgQW0TDv" version="20.8.15" type="github">
+  <diagram name="Страница 1" id="lynCQwub9FKNbzV4LjFN">
+    <mxGraphModel dx="938" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;films&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-7" value="film_name(varchar(255))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=3" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-6">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-8" value="film_id(serial)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-6">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-9" value="main_actor_id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-6">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-10" value="IMDb(decimal)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-6">
+          <mxGeometry y="200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-11" value="director_id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-6">
+          <mxGeometry y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;directors&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="200" height="240" as="geometry">
+            <mxRectangle x="600" y="40" width="90" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-14" value="director_id(serial)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-12">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-19" value="director_first_name(varchar(50))" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-12">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-20" value="director_second_name(varchar(50))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=3" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-12">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-22" value="birthday_date(date)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-12">
+          <mxGeometry y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-23" value="films_amount(smallint)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-12">
+          <mxGeometry y="200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;actors&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-25" value="main_actor_id(serial)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-24">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-30" value="main_actor_second_name(varchar(50))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=3" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-24">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-32" value="main_actor_first_name(varchar(50))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-24">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-33" value="birthday_date(date)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-24">
+          <mxGeometry y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-34" value="films_amount(smallint)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=10;fontStyle=1" vertex="1" parent="53_5UGNReRgQ4R-1LC-e-24">
+          <mxGeometry y="200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="53_5UGNReRgQ4R-1LC-e-9" target="53_5UGNReRgQ4R-1LC-e-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53_5UGNReRgQ4R-1LC-e-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="53_5UGNReRgQ4R-1LC-e-11" target="53_5UGNReRgQ4R-1LC-e-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
