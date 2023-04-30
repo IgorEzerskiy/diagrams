@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-30T09:06:42.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ApRdigk3tYhvFNNi9PiN" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-30T18:19:54.835Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="QUS9CpgKuiDCz7pfJ0Qn" version="21.2.3" type="github">
   <diagram name="Страница 1" id="WS5XKMtbX5fNqBQdNFVe">
-    <mxGraphModel dx="750" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="955" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -290,7 +290,7 @@
         <mxCell id="6W-p4avzXMGKr9aW8wP4-84" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=#BAC8D3;fillColor=#09555B;labelBackgroundColor=none;fontColor=#EEEEEE;" vertex="1" parent="6W-p4avzXMGKr9aW8wP4-77">
           <mxGeometry y="27" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="6W-p4avzXMGKr9aW8wP4-85" value="Fk" style="connectable=0;recursiveResize=0;strokeColor=#BAC8D3;fillColor=#09555B;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#EEEEEE;" vertex="1" parent="6W-p4avzXMGKr9aW8wP4-84">
+        <mxCell id="6W-p4avzXMGKr9aW8wP4-85" value="1to1" style="connectable=0;recursiveResize=0;strokeColor=#BAC8D3;fillColor=#09555B;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#EEEEEE;" vertex="1" parent="6W-p4avzXMGKr9aW8wP4-84">
           <mxGeometry width="60" height="25" as="geometry">
             <mxRectangle width="60" height="25" as="alternateBounds" />
           </mxGeometry>
